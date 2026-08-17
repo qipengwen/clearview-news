@@ -1,6 +1,5 @@
 {
   "crons": [
-    { "path": "/api/refresh?section=hot", "schedule": "*/30 * * * *" },
-    { "path": "/api/refresh?section=green", "schedule": "5,35 * * * *" }
+    { "path": "/api/refresh?section=all", "schedule": "0 0 * * *" }
   ]
 }
